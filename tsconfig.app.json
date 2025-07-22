@@ -1,9 +1,11 @@
 {
   "extends": "./tsconfig.json",
   "compilerOptions": {
+    "outDir": "./build",         // or "./dist"
     "declaration": true,
     "declarationDir": "./types", // optional
-    "emitDeclarationOnly": false
+    "emitDeclarationOnly": false,
+    "jsx": "react-jsx"
   },
   "include": ["src"]
 }
