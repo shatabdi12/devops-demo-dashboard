@@ -1,8 +1,9 @@
 {
   "extends": "./tsconfig.json",
   "compilerOptions": {
-    "composite": true,
-    "tsBuildInfoFile": "./.tsbuildinfo.app"
+    "declaration": true,
+    "declarationDir": "./types", // optional
+    "emitDeclarationOnly": false
   },
   "include": ["src"]
 }
