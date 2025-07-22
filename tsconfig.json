@@ -1,5 +1,5 @@
 {
-  "compilerOptions": {
+    "compilerOptions": {
     "target": "ES2017",               // or ES2020/ESNext if you want newer JS features
     "module": "ESNext",               // or "CommonJS" depending on your build setup
     "lib": [

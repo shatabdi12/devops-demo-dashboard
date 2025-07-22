@@ -11,7 +11,6 @@ function App() {
   }, []);
 
   return (
-    <>
       <div className="p-4">
         <h1 className="text-xl font-bold">DevOps Demo Dashboard</h1>
         <button className="mt-2 px-4 py-2 bg-red-500 text-white">
@@ -23,7 +22,6 @@ function App() {
           ))}
         </ul>
       </div>
-    </>
   );
 }
 
