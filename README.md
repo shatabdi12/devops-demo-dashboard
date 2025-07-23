@@ -16,3 +16,4 @@ A simple React + TypeScript dashboard app to demonstrate DevOps skills.
 ```bash
 npm install
 npm run dev
+```

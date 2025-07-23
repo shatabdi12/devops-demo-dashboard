@@ -1,20 +1,16 @@
 {
-    "compilerOptions": {
-    "target": "ES2017",               // or ES2020/ESNext if you want newer JS features
-    "module": "ESNext",               // or "CommonJS" depending on your build setup
-    "lib": [
-      "DOM",
-      "DOM.Iterable",
-      "ES2017"
-    ],
-    "moduleResolution": "node",       // or "node16" or "nodenext" if you use ESM
+  "compilerOptions": {
+    "target": "ES2017", // or ES2020/ESNext if you want newer JS features
+    "module": "ESNext", // or "CommonJS" depending on your build setup
+    "lib": ["DOM", "DOM.Iterable", "ES2017"],
+    "moduleResolution": "node", // or "node16" or "nodenext" if you use ESM
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
     "resolveJsonModule": true,
-    "skipLibCheck": true,             // prevents errors from node_modules types
+    "skipLibCheck": true, // prevents errors from node_modules types
     "forceConsistentCasingInFileNames": true,
     "strict": true,
-    "types": ["node"]                 // **important** to recognize Node built-in types
+    "types": ["node"] // **important** to recognize Node built-in types
   },
   "files": [],
   "references": [

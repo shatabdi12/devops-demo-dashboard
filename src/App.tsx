@@ -1,6 +1,11 @@
 import { useEffect, useState } from 'react';
 import './App.css';
 
+type User = {
+  id: string | number;
+  name: string;
+};
+
 function App() {
   const [users, setUsers] = useState([]);
 
@@ -22,7 +27,7 @@ function App() {
         Trigger Error
       </button>
       <ul>
-        {users.map((user: any) => (
+        {users.map((user: User) => (
           <li key={user.id}>{user.name}</li>
         ))}
       </ul>
