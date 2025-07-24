@@ -13,6 +13,7 @@ if (import.meta.env.VITE_SENTRY_ENABLED === 'true') {
     sendDefaultPii: true,
     tracesSampleRate: 1.0,
   });
+  console.log("🔍 DSN in Prod:", import.meta.env.VITE_SENTRY_DSN);
 }
 
 createRoot(document.getElementById('root')!).render(
